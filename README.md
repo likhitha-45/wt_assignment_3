@@ -1,1 +1,1 @@
-# wt_assignment_3
+This project is about to  create a html form with details like name,email,phone number and address. It is very interesting to do so. It is given by our professor K.Bhargav kiran sir
