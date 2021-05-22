@@ -1,0 +1,47 @@
+<html>
+
+<body>
+    <h2><b>HTML FORM</b> </h2>
+    <form action=submit.html>
+        <label for="fname"><strong>First name</strong>:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname"><strong>Last name</strong>:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <div>
+            <label for="gen"><strong>Gender</strong>:</label><br>
+            <p>Please select your gender</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br>
+        </div>
+        <div>
+            <label for="HigherQualification"><strong>Highest Qualification:</strong></label>
+            <select id="HigherQualification">
+        <option value="SSC">SSC</option>
+        <option value="Inter">Inter</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="PhD">PhD</option>
+        </select><br><br>
+        </div>
+        <div class="center">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email"><br><br>
+        </div>
+        <div class="center1">
+            <label for="number"><strong>PhoneNumber:</strong></label>
+            <input type="tel" pattern="[0-9]{10}" required><br><br>
+        </div>
+        <label for="Address"><strong>Address:</strong></label>
+        <textarea rows="2" cols="40"></textarea><br><br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
